@@ -2937,6 +2937,8 @@ input[type=radio] {
   line-height: 39px;
   border-radius: 2px;
   letter-spacing: 0;
+  background-color: #eb2f06;
+  color: #fff;
 }
 
 .action__btn {
