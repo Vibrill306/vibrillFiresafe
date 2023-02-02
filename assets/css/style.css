@@ -1552,24 +1552,24 @@ h6 {
 }
 
 .btn__primary {
-  background-color: #eb2f06;
+  background-color: #d63031;
   color: #ffffff;
 }
 
 .btn__primary .icon-outlined {
   color: #0e2b3d;
-  border: 1px solid #eb2f06;
+  border: 1px solid #d63031;
 }
 
 .btn__primary:active,
 .btn__primary:focus {
-  background-color: #eb2f06;
+  background-color: #d63031;
   color: #ffffff;
 }
 
 .btn__primary .icon-arrow-right,
 .btn__primary .icon-arrow-left {
-  color: #eb2f06;
+  color: #d63031;
   background-color: #ffffff;
 }
 
@@ -1585,24 +1585,24 @@ h6 {
 
 .btn__primary.btn__bordered {
   background-color: transparent;
-  border: 2px solid #eb2f06;
-  color: #eb2f06;
+  border: 2px solid #d63031;
+  color: #d63031;
 }
 
 .btn__primary.btn__bordered .icon-arrow-right,
 .btn__primary.btn__bordered .icon-arrow-left {
   color: #ffffff;
-  background-color: #eb2f06;
+  background-color: #d63031;
 }
 
 .btn__primary.btn__bordered:hover {
   color: #ffffff;
-  background-color: #eb2f06;
+  background-color: #d63031;
 }
 
 .btn__primary.btn__bordered:hover .icon-arrow-right,
 .btn__primary.btn__bordered:hover .icon-arrow-left {
-  color: #eb2f06;
+  color: #d63031;
   background-color: #ffffff;
 }
 
@@ -1626,7 +1626,7 @@ h6 {
 }
 
 .btn__secondary:before {
-  background-color: #eb2f06 !important;
+  background-color: #d63031 !important;
 }
 
 .btn__secondary .icon-arrow-right,
@@ -2937,7 +2937,7 @@ input[type=radio] {
   line-height: 39px;
   border-radius: 2px;
   letter-spacing: 0;
-  background-color: #eb2f06;
+  background-color: #d63031;
   color: #fff;
 }
 
@@ -3097,7 +3097,7 @@ input[type=radio] {
 }
 
 .is-sticky .action__btn-contact {
-  background-color: #eb2f06;
+  background-color: #d63031;
   border-color: #eb2f06;
   color: #ffffff !important;
 }
@@ -3776,7 +3776,7 @@ input[type=radio] {
     Footer
 --------------------------*/
 .footer {
-  background-color: #0a2d43;
+  background-color: black;
 }
 
 .footer .footer-primary {
@@ -3811,8 +3811,8 @@ input[type=radio] {
 
 .footer .footer-form .form-control {
   border-color: transparent;
-  background-color: #00243b;
-  color: #8097a1;
+  background-color: #0e2b3d;
+  color: whitesmoke;
   font-size: 14px;
   border-radius: 4px;
 }
@@ -3822,11 +3822,11 @@ input[type=radio] {
 }
 
 .footer .footer-form .form-control::-webkit-input-placeholder {
-  color: #8097a1;
+  color: whitesmoke;
 }
 
 .footer .footer-form .form-control:-moz-placeholder {
-  color: #8097a1;
+  color: whitesmoke;
 }
 
 .footer .footer-form .form-control::-moz-placeholder {
@@ -3862,7 +3862,7 @@ input[type=radio] {
 .footer .custom-control-label:before,
 .footer .custom-control-input:checked~.custom-control-label::before {
   background-color: transparent;
-  border-color: rgba(230, 233, 235, 0.1) !important;
+  border-color: whitesmoke!important;
 }
 
 .footer .footer-widget-nav li a {
@@ -3874,7 +3874,14 @@ input[type=radio] {
 }
 
 .footer .footer-widget-nav li a:hover {
-  color: #eb2f06;
+  transition: all .5s;
+  color: #d63031;
+  font-size: 15px;
+}
+
+.footer-widget__content img{
+  height: 100px;
+  width: 120px;
 }
 
 .footer .social-icons li {
@@ -5457,11 +5464,11 @@ input[type=radio] {
   transition: all 0.4s ease;
 }
 
-.testimonial__thumb img {
+/* .testimonial__thumb img {
   max-width: 100%;
   border-radius: 50%;
   margin: auto;
-}
+} */
 
 .testimonial__thumb.slick-current {
   border-color: #eb2f06;
@@ -5527,9 +5534,9 @@ input[type=radio] {
   border-radius: 50%;
 }
 
-.testimonial-box .testimonial__thumb img {
+/* .testimonial-box .testimonial__thumb img {
   border-radius: 50%;
-}
+} */
 
 .testimonial-box .testimonial__thumb:hover {
   border-color: #eb2f06;
@@ -6362,9 +6369,9 @@ input[type=radio] {
   z-index: 2;
   padding: 60px;
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: whitesmoke;
   -webkit-box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
-  box-shadow: 0px 5px 83px 0px rgba(40, 40, 40, 0.12);
+  box-shadow: 0px 5px 20px 0px black;
 }
 
 .contact-panel__title {
@@ -7199,6 +7206,7 @@ input[type=radio] {
 .banner-layout1 .testimonial__thumb.slick-current,
 .banner-layout2 .testimonial__thumb.slick-current {
   border-color: #ffffff;
+  border: none;
 }
 
 .banner-layout2 .heading__title {
